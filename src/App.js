@@ -24,7 +24,7 @@ function App() {
     total = (getApplePrices(apples, appleOffer) + getOrangePrices(oranges, orangeOffer)) / 100;
 
 
-    alert('total : ' + total);
+    alert('total : ' + total + '$');
   }
 
 
