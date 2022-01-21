@@ -1,6 +1,7 @@
 # Assumptions
 1. Only apply offer price for apples when we have atleast 2 apples 
 2. Only apply offer price for oranges when we have atleast 3 oranges
+3. Input should be a comma separated string of Orange and Apple. eg: Orange,Apple,Orange
 
 # Getting Started with Create React App
 
