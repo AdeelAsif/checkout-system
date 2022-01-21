@@ -1,3 +1,7 @@
+# Assumptions
+1. Only apply offer price for apples when we have atleast 2 apples 
+2. Only apply offer price for oranges when we have atleast 3 oranges
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
