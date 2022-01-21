@@ -4,7 +4,7 @@ export const pricesInCents = {
 }
 
 export const getApplePrices = (apples, offer) => {
-    if (!offer && !apples < 2)
+    if (!offer || apples < 2)
         return apples * pricesInCents.Apple;
     return Math.floor(apples / 2) * pricesInCents.Apple;
 }
